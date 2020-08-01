@@ -1,6 +1,6 @@
 # URL Shortener
 
-Shortener is a simple url shortner application.
+Shortener is a simple url shortener application.
 
 ## Installation
 
