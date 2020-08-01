@@ -1,6 +1,6 @@
 # URL Shortener
 
-Shortener is a simple url shortener application.
+Shortener is a simple url shortener application built using expressJs.
 
 ## Installation
 
