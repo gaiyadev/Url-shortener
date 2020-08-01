@@ -1,12 +1,17 @@
 # URL Shortener
 
-Shortener is a simple url shortener application built using expressJs.
+Shortener is a simple url shortener application built using expressJs and Mongodb.
 
 ## Installation
 
-Clone the repo and run npm install
+Clone the repo and navigate to the folder directory and run npm install to install all dependencies
 
 ```bash
-npm install
+npm install and nodemon to start a dev server
 ```
 
+## Technologies
++ Mongodb
++ ExpressJs
++ Ejs
++ NodeJs
