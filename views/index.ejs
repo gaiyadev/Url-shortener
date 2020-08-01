@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+  <container>
+    <div class="row">
+      <div class="col-md-12">
+        <h1>URL Shrinker</h1>
+        <form action="/shorturls" method="POST">
+          <div class="form-group">
+            <label for="fullurl" class="sr-only">URL</label>
+            <input type="url" name="fullurl" placeholder="URL" required class="form-control col" id="fullurl">
+          </div>
+          <button type="submit" class="btn btn-success">Generate</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-bordered mt-4">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Full Url</th>
+              <th scope="col">Short Url</th>
+              <th scope="col">Clicks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td><a href=""> s </a>></td>
+              <td><a href=""> s </a>></td>
+              <td>10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </container>
+</body>
+
 </html>
